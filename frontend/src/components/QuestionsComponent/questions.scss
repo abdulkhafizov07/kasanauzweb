@@ -1,0 +1,74 @@
+#questions {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 30px 50px;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .questions {
+        padding: 30px 0 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 20px;
+
+        .question {
+            width: 45%;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            cursor: pointer;
+            transform: translateX(30px);
+            transition: all 1s;
+            opacity: 0;
+
+            &:nth-child(2n+1) {
+                transform: translateX(-30px);
+                opacity: 0;
+                background-color: #f0f0f0; /* Masalan, fon rangini o'zgartirish */
+            }
+
+            &.revealed {
+                transform: unset;
+                opacity: 1;
+            }
+              
+
+            .title {
+                padding: 20px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                font-weight: 600;
+            }
+
+            .answer {
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.5s;
+                position: absolute;
+                opacity: 0;
+            }
+            
+            .answer.show {
+                opacity: 1;
+                position: relative;
+                padding: 0 20px 20px;
+                max-height: 200px;
+            }
+              
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #questions {
+        padding: 30px 20px;
+        .question {
+            width: 100% !important;
+        }
+    }
+}

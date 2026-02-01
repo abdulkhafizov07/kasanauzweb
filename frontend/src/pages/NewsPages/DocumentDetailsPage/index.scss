@@ -1,0 +1,42 @@
+#pdf {
+    .to-back {
+        background-color: #41A58D;
+        height: 50px;
+        margin-top: 166px;
+
+        .inner {
+            margin: 0 auto;
+            max-width: 1366px;
+            align-items: center;
+            display: flex;
+            height: 100%;
+            padding: 0 50px;
+            color: #fff;
+
+            a {
+                color: #fff;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            span {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    
+    embed {
+        width: 100%;
+        min-height: 130vh;
+        max-width: 80%;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .doc-not-found {
+        margin: 140px 50px 20px;
+    }
+}

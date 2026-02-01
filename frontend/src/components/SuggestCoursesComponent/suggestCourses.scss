@@ -1,0 +1,117 @@
+.suggest-courses {
+    padding: 36px 0;
+
+    .title {
+        color: #1E1E1E;
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .littleTitle {
+        color: #757575;
+        margin-bottom: 26px;
+    }
+
+    .courses-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) !important;
+        gap: 16px;
+
+        .course-card {
+            transition: all 1s;
+            width: 100%;
+
+            .card-img {
+                width: 100%;
+                height: 190px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    border-radius: 10px;
+                }
+            }
+
+            a {
+                color: #118E71;
+                display: block;
+            }
+
+            .card-title {
+                color: #4B4B4B;
+                font-size: 18px;
+                font-weight: 600;
+                margin: 10px 0;
+            }
+
+            .card-description {
+                color: #757575;
+                margin: 10px 0;
+            }
+
+            .line {
+                height: 1px;
+                background-color: #D9D9D9;
+            }
+
+            .about-card {
+                display: flex;
+                justify-content: space-between;
+
+                .detail {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: #757575;
+                    gap: 5px;
+                    border-right: 1px solid #D9D9D9;
+                    padding-right: 8px;
+                    margin: 10px 0;
+
+                    &:last-child {
+                        border: unset;
+                    }
+
+                    svg {
+                        width: 17px !important;
+                        height: 17px !important;
+                    }
+                }
+            }
+
+            .author {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                color: #757575;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .suggest-courses {
+        padding: 20px;
+        
+        .courses-cards {
+            justify-content: center !important;
+            padding: 15px;
+
+            a {
+                width: 100% !important;
+
+                .course-card {
+                    width: 100% !important;
+                }
+            }
+        }       
+    }   
+}

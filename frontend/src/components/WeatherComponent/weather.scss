@@ -1,0 +1,145 @@
+.location-error {
+  padding: 20px;
+}
+
+.weather-widget {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 55%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+  
+    .current-weather {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+  
+      .current-temp {
+        font-size: 18px;
+        color: #3E3232BF;
+        display: flex;
+        gap: 20px;
+
+        .weather-left {
+          display: flex;
+          gap: 5px;
+        }
+
+        .nam {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          font-size: 16px;
+        }
+
+        h1 {
+          font-weight: 600;
+          font-size: 34px;
+          display: flex;
+          align-items: flex-start;
+          
+          span {
+            font-size: 12px;
+          }
+        }
+      }
+  
+      .additional-info {
+        font-size: 16px;
+        color: #666;
+  
+        .info {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    }
+  
+    .forecast {
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+  
+      h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+      }
+  
+      .forecast-hours {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+  
+        .hour {
+          background-color: #f4f4f438;
+          border-radius: 8px;
+          padding: 10px;
+          width: 80px;
+          margin: 10px;
+          text-align: center;
+  
+          img {
+            width: 40px;
+            height: 40px;
+            filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.3));
+          }
+  
+          p {
+            margin: 5px 0;
+            font-size: 16px;
+
+            &.date-hour {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+@media screen and (max-width: 500px) {
+  .weather-widget {
+    margin: 0 20px;
+    max-width: 100%;
+  
+    .current-weather {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .current-temp {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        
+      }
+      .additional-info {
+        margin-top: 15px;
+        .info {
+          align-items: flex-start;
+          
+          p {
+            &:first-child {
+              color: #000;
+              font-size: 18px;
+            }
+
+            &:last-child {
+              text-transform: capitalize;
+            }
+          }
+        }
+      }
+    }
+    .forecast {
+      .forecast-hours {
+        .hour {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+

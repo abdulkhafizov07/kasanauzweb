@@ -1,0 +1,168 @@
+.right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 40%;
+
+    .categories {
+        padding: 25px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        h2 {
+            color: #1E1E1E;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        ul {
+            margin-top: 10px;
+
+            li {
+                border-bottom: 1px solid #EBEBEB;
+                padding: 11.8px 0;
+
+                a {
+                    color: #4B4B4B;
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                &:last-child {
+                    border: unset;
+                }
+            }
+        }
+    }
+
+    .last-news {
+        padding: 25px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        h2 {
+            color: #1E1E1E;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        ul {
+            margin-top: 10px;
+            li {
+                padding: 10px 0;
+                border-bottom: 1px solid #EBEBEB;
+
+                &:last-child {
+                    border-bottom: none;
+                }
+
+                .row {
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+
+                    .row-right {
+                        width: 103.2px;
+                        height: 103.2px;
+                        background-color: #41A58D;
+                        border-radius: 10px;
+
+                        img {
+                            border-radius: 10px;
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    .row-left {
+                        width: 70%;
+
+                        .row-new-title {
+                            color: #4B4B4B;
+                            font-weight: 600;
+                        }
+
+                        .row-new-date {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 10px;
+
+                            div {
+                                display: flex;
+                                align-items: center;
+                                gap: 5px;
+                                color: #41A58D;
+
+                                svg path {
+                                    stroke: #41A58D;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .popularity {
+        padding: 25px;
+        background-color: #fff;
+        border-radius: 10px;
+
+        h2 {
+            color: #1E1E1E;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        ul {
+            margin-top: 10px;
+            li {
+                padding: 15px 0;
+                border-bottom: 1px solid #EBEBEB;
+                p {
+                    color: #4B4B4B;
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+
+                .date {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        color: #41A58D;
+
+                        svg path {
+                            stroke: #41A58D;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .right-side {
+        width: 100%;
+
+        .categories-desktop-version {
+            display: none;
+        }
+
+        .last-news {
+            padding: 25px 10px;
+        }
+
+        .popularity {
+            padding: 25px 15px;
+        }
+    }
+}

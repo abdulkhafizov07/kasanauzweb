@@ -1,0 +1,330 @@
+{
+  "translation": {
+    "online-shop": "Onlayn Bozor",
+    "announcements": "E`lonlar",
+    "news": "Yangiliklar",
+    "courses": "Kurslar",
+    "login": "Kirish",
+    "admin-dashboard": "Admin panel",
+    "moderator-dashboard": "Moderator panel",
+    "user-dashboard": "Shaxsiy kabinet",
+    "home-page": "Bosh sahifa",
+    "about-project": "Loyiha haqida",
+    "partners": "Hamkorlar",
+    "contact": "Bog'lanish",
+    "our-courses": "Kurslarimiz",
+    "see-more": "Ko'proq ko'rish",
+    "services": {
+      "online-shop": {
+        "title": "Onlayn Bozor"
+      },
+      "announcements": {
+        "title": "E`lonlar"
+      }
+    },
+    "register": {
+      "title": "Ro'yhatdan o'tish",
+      "description": "Tizimdan foydalanishu uchun o'z hisob varaqangizni yarating",
+      "first_name": "Ism",
+      "insert_first_name": "Ismingizni kiriting",
+      "phone": "Telefon raqam",
+      "insert_phone": "Telefon raqamingizni kiriting",
+      "password": "Kalit so'z",
+      "insert_password": "Kuchli parol kiriting",
+      "confirm_password": "Kalit so'z (qayta kirish)",
+      "insert_confirm_password": "Parolni takror kiriting",
+      "submit": "Davom etish",
+      "have-an-account": "Allaqachon ro'yhatdan o'tganmisiz?"
+    },
+    "verify": {
+      "title": "Ko'dni tasdiqlash",
+      "description": "Telefon raqamingizga tizim tomonidan yuborilgan 5 xonali tasdiqlash ko'dini kiting",
+      "enter_code": "5 xonali ko'd",
+      "submit": "Davom etish"
+    },
+    "profile": {
+      "first_name": "Ism",
+      "last_name": "Familiya",
+      "middle_name": "Sharif",
+      "email": "Elektron pochta",
+      "phone": "Telefon raqam",
+      "birthday": "Tug'ilgan kun",
+      "region&district": "Viloyat, tuman",
+      "gender": "Jins",
+      "purposes": "Faoliyati",
+      "about": "Men haqimda",
+      "bio": "Biografiya",
+      "male": "Erkak",
+      "female": "Ayol",
+      "undefined": "Kiritilmagan",
+      "onlineshop": {
+        "products": {
+          "create": {
+            "title": "Mahsulot joylash",
+            "fields": {
+              "title": "Nomi",
+              "short_description": "Qisqa tafsilot",
+              "description": "To‘liq tafsilot",
+              "price": "Narxi",
+              "price_discount": "Chegirma narxi",
+              "category": "Kategoriya (Tur)",
+              "images": "Rasmlar"
+            },
+            "placeholder": {
+              "title": "Nomini kiriting",
+              "short_description": "Qisqa tafsilot kiriting",
+              "description": "To‘liq tafsilot yozing",
+              "price": "Narxini kiriting",
+              "price_discount": "Chegirma narxini kiriting",
+              "category": "Kategoriya tanlang"
+            },
+            "submit": "Joylash"
+          }
+        }
+      }
+    },
+    "admin": {
+      "sidebar": {
+        "users": "Foydalanuvchilar",
+        "housemakers": "Kasanachilar",
+        "admins": "Adminlar",
+        "moderators": "Moderatorlar",
+        "onlineshop": "Onlayn bozor",
+        "products": "Mahsulotlar",
+        "categories": "Kategoriyalar (Turlar)",
+        "courses": "Kurslar",
+        "announcements": "E`lonlar",
+        "all": "Barchasi",
+        "work announcements": "Ish e`lonlari",
+        "service announcements": "Xizmat e`lonlari",
+        "news": "Yangiliklar",
+        "documents": "Xujjatlar"
+      },
+      "table": {
+        "news": {
+          "categories": {}
+        },
+        "common": {
+          "id": "#",
+          "title": "Nomi",
+          "meta": "Meta nomi",
+          "lessons": "Darslar",
+          "subscriptions": "Obunalar",
+          "likes": "Yoqtirishlar",
+          "state": "Holat",
+          "status-moderation": "Tasdiqlanmagan",
+          "status-approved": "Tasdiqlangan",
+          "status-rejected": "Qaytarilgan",
+          "status-banned": "Ban qilingan",
+          "status-hidden": "Yashirilgan",
+          "status-": "Nomalum",
+          "created_at": "Yaratilingan sana",
+          "more": "Ko'proq",
+          "actions": "Holat belgilash",
+          "moderation": "Moderatsiya",
+          "approved": "Tasdiqlangan",
+          "rejected": "Qaytarilgan",
+          "banned": "Ban qilingan",
+          "hidden": "Yashirilgan",
+          "server-is-empty": "Malumotlar to'ldirilmagan",
+          "create": "Qo'shish",
+          "delete": "O'chirish",
+          "edit": "Taxrirlash"
+        }
+      },
+      "users": {
+        "create": {
+          "title": "Foydalanuvchi yaratish",
+          "fields": {
+            "image": "Profil rasmi",
+            "first_name": "Ism",
+            "last_name": "Familiya",
+            "middle_name": "Sharif",
+            "phone": "Telefon raqam",
+            "email": "Elektron pochta",
+            "birthday": "Tug'ilgan kun",
+            "region": "Viloyat",
+            "district": "Tuman",
+            "gender": "Jins",
+            "purposes": "Maqsadlar",
+            "about": "Men haqimda",
+            "biography": "Biografiya"
+          },
+          "placeholder": {
+            "first_name": "Ism kiriting",
+            "last_name": "Familiya kiriting",
+            "middle_name": "Sharif kiriting",
+            "phone": "99 999 99 99",
+            "email": "Elektron pochta kiriting",
+            "birthday": "Tug'ilgan kun tanlang",
+            "region": "Viloyat tanlang",
+            "district": "Tuman tanlang",
+            "gender": "Jins tanlang",
+            "purposes": "Maqsadingizni kiriting",
+            "about": "O'zingiz haqingizda yozing",
+            "biography": "Biografiyangizni yozing"
+          },
+          "select": {
+            "male": "Erkak",
+            "female": "Ayol"
+          }
+        }
+      },
+      "onlineshop": {
+        "products": {
+          "title": "Mahsulotlar",
+          "create": {
+            "title": "Mahsulot joylash",
+            "fields": {
+              "title": "Nomi",
+              "meta": "Meta nomi",
+              "short_description": "Qisqa tafsilot",
+              "price": "Narxi",
+              "price_discount": "Chegirma narxi",
+              "state": "Holat",
+              "user": "Foydalanuvchi",
+              "category": "Kategoriya (Tur)",
+              "images": "Rasmlar"
+            },
+            "placeholder": {
+              "title": "Nomini kiritish",
+              "meta": "Meta nomi kiriting",
+              "short_description": "Qisqa tafsilot kiriting",
+              "price": "Narxini kiriting",
+              "price_discount": "Chegirma narxini kiriting",
+              "state": "Holatni tanlang",
+              "user": "Foydalanuvchi telefon raqami",
+              "category": "Kategoriya (Tur) tanlang",
+              "images": "Rasm fayllar yuklang"
+            },
+            "select": {
+              "active": "Aktiv",
+              "inactive": "InActive"
+            },
+            "submit": "Yaratish"
+          }
+        },
+        "categories": {
+          "title": " Kategoriyalar (Turlar)",
+          "create": {
+            "title": "Kategoriyalar (Turlar) yaratish",
+            "description": "Yangi kategoriya ochish uchun kerakli maydonlarni kiriting.",
+            "fields": {
+              "title": "Nomi",
+              "meta": "Meta nomi",
+              "state": "Holat"
+            },
+            "placeholder": {
+              "title": " Kategoriya (Tur) nomi kiriting",
+              "meta": "Meta nomi kiriting",
+              "state": "Holatni tanlang"
+            },
+            "select": {
+              "moderation": "Moderatsiya",
+              "approved": "Tasdiqlangan",
+              "rejected": "Qaytarilgan",
+              "banned": "Ban qilingan",
+              "hidden": "Yashirilgan"
+            },
+            "submit": "Yaratish"
+          }
+        }
+      },
+      "announcements": {
+        "create": {
+          "title": "E`lon joylash",
+          "fields": {
+            "user": "Foydalanuvchi",
+            "announcement_type": "E`lon turi",
+            "title": "Sarlavha",
+            "meta": "Meta nomi",
+            "thumbnail": "Rasm",
+            "price_min": "Minimal narx",
+            "price_max": "Maksimal narx",
+            "dealed": "Narx kelishilgan",
+            "region": "Viloyat",
+            "district": "Tuman",
+            "address": "Manzil",
+            "experience": "Tajriba",
+            "work_time": "Ish vaqti",
+            "short_description": "Qisqa tafsilot",
+            "description": "To`liq tafsilot",
+            "state": "Holat"
+          },
+          "placeholder": {
+            "user": "Telefon raqam kiriting",
+            "announcement_type": "E`lon turini tanlang",
+            "title": "Sarlavha kiriting",
+            "meta": "Meta nomi kiriting",
+            "thumbnail": "Rasm faylini yuklang",
+            "price_min": "Minimal narx kiriting",
+            "price_max": "Maksimal narx kiriting",
+            "region": "Viloyatni tanlang",
+            "district": "Tuman tanlang",
+            "address": "Manzil kiriting",
+            "experience": "Tajribangizni kiriting",
+            "work_time": "Ish vaqtini tanlang",
+            "short_description": "Qisqa tafsilot yozing",
+            "description": "To`liq tafsilot yozing",
+            "state": "Holatni tanlang"
+          },
+          "select": {
+            "service_announcement": "Xizmat e`loni",
+            "work_announcement": "Ish e`loni",
+            "full_time": "To`liq ish vaqti",
+            "part_time": "Yarim ish vaqti",
+            "flexable_time": "Moslashuvchan ish vaqti",
+            "moderation": "Moderatsiya",
+            "approved": "Tasdiqlangan",
+            "rejected": "Qaytarilgan",
+            "banned": "Ban qilingan",
+            "hidden": "Yashirilgan"
+          },
+          "submit": "Yaratish"
+        }
+      },
+      "news": {
+        "categories": {
+          "create": {
+            "title": "Kategoriyalar (Turlar) yaratish",
+            "description": "Yangi kategoriya ochish uchun kerakli maydonlarni kiriting.",
+            "fields": {
+              "title": " Kategoriya (Tur) nomi",
+              "meta": "Meta nomi",
+              "state": "Holat"
+            },
+            "placeholder": {
+              "title": "Kategoriya (Tur) nomi kiriting",
+              "meta": "Meta nomi kiriting",
+              "state": "Holatni tanlang"
+            },
+            "select": {
+              "moderation": "Moderatsiya",
+              "approved": "Tasdiqlangan",
+              "rejected": "Qaytarilgan",
+              "banned": "Ban qilingan",
+              "hidden": "Yashirilgan"
+            }
+          }
+        },
+        "news": {
+          "create": {
+            "title": "Yangilik joylash"
+          }
+        },
+        "documents": {
+          "create": {
+            "title": "Xujjat joylash"
+          }
+        }
+      }
+    },
+    "search_title": "Qidiruv",
+    "search_desc": "Kerakli ma'lumotni qidiring",
+    "search_placeholder": "Matn kiriting...",
+    "search": "Qidiruv",
+    "type_to_search": "Qidirish uchun yozing",
+    "cancel": "Bekor qilish",
+    "betaNotice": "Platforma test sinov tariqasida ishga tushurilgan"
+  }
+}

@@ -1,0 +1,103 @@
+#successPeople {
+    padding: 36px 0;
+    width: 100%;
+    max-width: 1366px;
+    margin: 0 auto;
+
+    h1 {
+        color: #1E1E1E;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .success-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 46px;
+        gap: 26px;
+
+        .success-card {
+            width: 100%;
+            height: 426px;
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+
+            &::after {
+                background-image: linear-gradient(to top, #118E71, #118E7100, #118E7100);
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: "";
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+
+            .texts {
+                position: absolute;
+                bottom: 0;
+                z-index: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 20px;
+
+                .type {
+                    background-color: #fff;
+                    color: #118E71;
+                    border-radius: 20px;
+                    padding: 3px 10px;
+                    font-size: 15px;
+                }
+
+                .title {
+                    margin: 5px 0;
+                    color: #fff;
+                    font-size: 22px;
+                    font-weight: 600;
+                }
+
+                .successMessage {
+                    color: #FEC967;
+                    font-size: 15px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    pointer-events: none;
+                }
+
+                .income {
+                    color: #fff;
+                    margin: 3px 0;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    pointer-events: none;
+                }
+            }
+        }
+    }
+
+}
+
+.scroll-fade-effect {
+    transform: translateY(25px);
+    transition: all 1s;
+    opacity: 0;
+}
+
+.scroll-fade-effect.revealed {
+    transform: unset;
+    opacity: 1;
+}

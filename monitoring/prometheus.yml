@@ -1,0 +1,48 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'kasana-users'
+    static_configs:
+      - targets: ['users:8000']
+        labels:
+          group: 'kasana'
+    metrics_path: /prometheus/metrics
+
+  - job_name: 'kasana-onlineshop'
+    static_configs:
+      - targets: ['onlineshop:8000']
+        labels:
+          group: 'kasana'
+    metrics_path: /prometheus/metrics
+
+  - job_name: 'kasana-announcements'
+    static_configs:
+      - targets: ['announcements:8000']
+        labels:
+          group: 'kasana'
+    metrics_path: /prometheus/metrics
+
+  - job_name: 'kasana-news'
+    static_configs:
+      - targets: ['news:8000']
+        labels:
+          group: 'kasana'
+    metrics_path: /prometheus/metrics
+
+  - job_name: 'kasana-courses'
+    static_configs:
+      - targets: ['courses:8000']
+        labels:
+          group: 'kasana'
+    metrics_path: /prometheus/metrics
+
+  - job_name: redis-enterprise
+    scrape_interval: 30s
+    scrape_timeout: 30s
+    metrics_path: /
+    scheme: https
+    tls_config:
+      insecure_skip_verify: true
+    static_configs:
+      - targets: ["redis:6379"]

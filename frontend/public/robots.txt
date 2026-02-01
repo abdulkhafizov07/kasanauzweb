@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /profile/messages
+Disallow: /profile/messenger
+Disallow: /profile/messanger
+Disallow: /profile/notifications
